@@ -1,12 +1,9 @@
 <template>
-  <NuxtLink 
-    :to="to" 
-    class="text-current hover:text-accent transition-colors duration-200"
+  <NuxtLink :to="to" class="text-current hover:text-accent dark:hover:text-accent transition-colors duration-200"
     :class="[
       isMobile ? 'block py-2' : '',
       isScrolled ? 'text-gray-700 dark:text-gray-300' : 'text-white'
-    ]"
-  >
+    ]">
     <slot></slot>
   </NuxtLink>
 </template>
