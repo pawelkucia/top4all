@@ -64,7 +64,7 @@ import TestimonialsSection from '~/components/home/TestimonialsSection.vue';
 import QuoteSection from '~/components/home/QuoteSection.vue';
 
 useHead(useMetaTags({
-  title: 'Digital Marketing Agency',
+  title: 'TOP4ALL - Digital Marketing Agency',
   description: 'TOP4ALL is a leading digital marketing agency specializing in SEO, Google Ads, and digital marketing audits. We help businesses grow their online presence and achieve sustainable results.',
   keywords: 'digital marketing agency, SEO services, Google Ads management, digital marketing audit, online marketing, TOP4ALL',
   image: '/images/hero-1-mood-seo.jpg'
