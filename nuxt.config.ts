@@ -10,13 +10,13 @@ export default defineNuxtConfig({
   ],
   app: {
     head: {
-      title: 'Digital Marketing Agency',
+      title: 'TOP4ALL - Digital Marketing Agency',
       meta: [
         { charset: 'utf-8' },
         { name: 'viewport', content: 'width=device-width, initial-scale=1' }
       ],
       link: [
-        { rel: 'icon', type: 'image/x-icon', href: '/favicon.ico' },
+        { rel: 'icon', type: 'image/x-icon', href: '/favicon.png' },
         { 
           rel: 'preconnect', 
           href: 'https://cdnjs.cloudflare.com'
