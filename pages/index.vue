@@ -14,42 +14,36 @@
 
     <ServicesSlider />
 
-    <QuoteSection 
-      quote="On the way to the top of search engines, the journey itself is what matters most. Our experience is the story of many successful expeditions." 
-      author="Pawel Kucia, TOP4ALL" 
-      background-image='/images/bg-header-2.jpg'
-      avatar="/images/pawel-kucia.jpg"
-      url="/contact"
-    />
+    <QuoteSection
+      quote="On the way to the top of search engines, the journey itself is what matters most. Our experience is the story of many successful expeditions."
+      author="Pawel Kucia, TOP4ALL" background-image='/images/bg-header-2.jpg' avatar="/images/pawel-kucia.jpg"
+      url="/contact" />
 
     <!-- One Column Section -->
     <section class="py-20">
       <div class="container">
-        <h2 class="text-center mb-12">Why Choose Us</h2>        
-        <p class="text-center max-w-3xl mx-auto">At our SEO agency, we don't just boost your rankings – we grow your business. With tailored strategies, transparent reporting, and a team of dedicated experts, we deliver real results that drive traffic and conversions. Choose us for a partner committed to your success.
+        <h2 class="text-center mb-12">Why Choose Us</h2>
+        <p class="text-center max-w-3xl mx-auto">At our SEO agency, we don't just boost your rankings – we grow your
+          business. With tailored strategies, transparent reporting, and a team of dedicated experts, we deliver real
+          results that drive traffic and conversions. Choose us for a partner committed to your success.
         </p>
-      </div>        
+      </div>
     </section>
 
     <TestimonialsSection />
 
-    <QuoteSection 
-      quote="We support our clients in all areas of digital marketing. Day by day. Until the goal is achieved." 
-      author="Radek Mentel, TOP4ALL" 
-      background-image='/images/bg-header-3.jpg' 
-      avatar="/images/radek-mentel.jpg"
-      url="/contact"
-    />
+    <QuoteSection
+      quote="We support our clients in all areas of digital marketing. Day by day. Until the goal is achieved."
+      author="Radek Mentel, TOP4ALL" background-image='/images/bg-header-3.jpg' avatar="/images/radek-mentel.jpg"
+      url="/contact" />
 
     <!-- Call to Action -->
     <section class="py-20">
       <div class="container text-center">
         <h2 class="mb-6">Ready to Grow Your Business?</h2>
         <p class="mb-8">Contact us today for a free consultation</p>
-        <NuxtLink 
-          to="/contact"
-          class="bg-black text-white px-8 py-3 rounded-lg font-semibold hover:bg-gray-600"
-        >
+        <NuxtLink to="/contact"
+          class="bg-primary transition-colors text-white px-8 py-3 rounded-lg font-semibold hover:bg-gray-600">
           Get Started
         </NuxtLink>
       </div>

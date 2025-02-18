@@ -35,10 +35,10 @@
           <h3 class="text-xl font-bold mb-4">Links</h3>
           <ul class="space-y-2">
             <li>
-              <NuxtLink to="/privacy-policy" class="hover:text-blue-400">Privacy Policy</NuxtLink>
+              <NuxtLink to="/privacy-policy" class="hover:text-primary transition-colors">Privacy Policy</NuxtLink>
             </li>
             <li>
-              <NuxtLink to="/contact" class="hover:text-blue-400">Contact</NuxtLink>
+              <NuxtLink to="/contact" class="hover:text-primary transition-colors">Contact</NuxtLink>
             </li>
           </ul>
         </div>

@@ -18,7 +18,7 @@
             <p class="text-gray-600 dark:text-gray-200 mb-4">{{ member.position }}</p>
             <div class="flex justify-center space-x-4">
               <a v-for="social in member.social" :key="social.platform" :href="social.url"
-                class="text-gray-600 hover:text-blue-600" target="_blank">
+                class="text-gray-600 hover:text-primary transition-colors text-xl" target="_blank">
                 <i :class="social.icon"></i>
               </a>
             </div>
