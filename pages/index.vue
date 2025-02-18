@@ -14,7 +14,13 @@
 
     <ServicesSlider />
 
-    <QuoteSection quote="On the way to the top of search engines, the journey itself is what matters most. Our experience is the story of many successful expeditions." author="Pawel Kucia, TOP4ALL" background-image='/images/bg-header-2.jpg' />
+    <QuoteSection 
+      quote="On the way to the top of search engines, the journey itself is what matters most. Our experience is the story of many successful expeditions." 
+      author="Pawel Kucia, TOP4ALL" 
+      background-image='/images/bg-header-2.jpg'
+      avatar="/images/pawel-kucia.jpg"
+      url="/contact"
+    />
 
     <!-- One Column Section -->
     <section class="py-20">
@@ -27,7 +33,13 @@
 
     <TestimonialsSection />
 
-    <QuoteSection quote="We support our clients in all areas of digital marketing. Day by day. Until the goal is achieved." author="Radek Mentel, TOP4ALL" background-image='/images/bg-header-3.jpg' />
+    <QuoteSection 
+      quote="We support our clients in all areas of digital marketing. Day by day. Until the goal is achieved." 
+      author="Radek Mentel, TOP4ALL" 
+      background-image='/images/bg-header-3.jpg' 
+      avatar="/images/radek-mentel.jpg"
+      url="/contact"
+    />
 
     <!-- Call to Action -->
     <section class="py-20">

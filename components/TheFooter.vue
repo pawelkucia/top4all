@@ -1,12 +1,7 @@
 <template>
   <footer class="relative text-white py-12">
     <div class="absolute inset-0">
-      <img 
-        src="/images/footer-bg.jpg" 
-        alt="" 
-        class="w-full h-full object-cover"
-        aria-hidden="true"
-      >
+      <img src="/images/footer-bg.jpg" alt="" class="w-full h-full object-cover" aria-hidden="true">
       <div class="absolute inset-0 bg-black bg-opacity-10"></div>
     </div>
     <div class="container relative">
@@ -17,19 +12,34 @@
           </div>
           <SocialLinks :social-links="socialLinks" />
         </div>
-        
+
         <div>
           <h3 class="text-xl font-bold mb-4">Contact</h3>
+
+          <p class="flex items-center gap-2">
+            <i class="fas fa-phone"></i>
+            <span>+48 693 430 284</span>
+          </p>
+          <p class="flex items-center gap-2">
+            <i class="fas fa-phone"></i>
+            <span>+48 698 949 152</span>
+          </p>
+          <p class="flex items-center gap-2">
+            <i class="fas fa-envelope"></i>
+            <span>biuro@top4all.pl</span>
+          </p>
           <p>Poland</p>
-          <p>Phone: +48 693 430 284</p>
-          <p>Email: biuro@top4all.pl</p>
         </div>
-        
+
         <div>
           <h3 class="text-xl font-bold mb-4">Links</h3>
           <ul class="space-y-2">
-            <li><NuxtLink to="/privacy-policy" class="hover:text-blue-400">Privacy Policy</NuxtLink></li>
-            <li><NuxtLink to="/contact" class="hover:text-blue-400">Contact</NuxtLink></li>
+            <li>
+              <NuxtLink to="/privacy-policy" class="hover:text-blue-400">Privacy Policy</NuxtLink>
+            </li>
+            <li>
+              <NuxtLink to="/contact" class="hover:text-blue-400">Contact</NuxtLink>
+            </li>
           </ul>
         </div>
       </div>

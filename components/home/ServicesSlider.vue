@@ -21,7 +21,7 @@
           }"
         >
           <SwiperSlide v-for="service in services" :key="service.id">
-            <div class="bg-white dark:bg-dark-200 p-8 rounded-lg text-center shadow-md hover:shadow-lg transform transition-all duration-200 hover:scale-110">
+            <div class="bg-white dark:bg-dark-200 p-8 rounded-lg text-center shadow-md hover:shadow-lg transform transition-all duration-200">
               <div class="w-16 h-16 mx-auto mb-4">
                 <img 
                   :src="service.icon" 
