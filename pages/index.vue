@@ -38,16 +38,12 @@
       url="/contact" />
 
     <!-- Call to Action -->
-    <section class="py-20">
-      <div class="container text-center">
-        <h2 class="mb-6">Ready to Grow Your Business?</h2>
-        <p class="mb-8">Contact us today for a free consultation</p>
-        <NuxtLink to="/contact"
-          class="bg-primary transition-colors text-white px-8 py-3 rounded-lg font-semibold hover:bg-gray-600">
-          Get Started
-        </NuxtLink>
-      </div>
-    </section>
+    <CallToActionSection
+      title="Ready to Grow Your Business?"
+      description="Contact us today for a free consultation"
+      url="/contact" 
+      urlLabel="Get Started"
+    />
   </main>
 </template>
 
@@ -56,6 +52,7 @@ import HeroSlider from '~/components/home/HeroSlider.vue';
 import ServicesSlider from '~/components/home/ServicesSlider.vue';
 import TestimonialsSection from '~/components/home/TestimonialsSection.vue';
 import QuoteSection from '~/components/home/QuoteSection.vue';
+import CallToActionSection from '~/components/home/CallToActionSection.vue';
 
 useHead(useMetaTags({
   title: 'Digital Marketing Agency',
