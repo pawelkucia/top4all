@@ -4,7 +4,7 @@
         <h2 class="mb-6">{{ title }}</h2>
         <p class="mb-8">{{ description }}</p>
         <NuxtLink v-if="url" :to="url"
-          class="bg-primary transition-colors text-white px-8 py-3 rounded-lg font-semibold hover:bg-gray-600">
+          class="bg-primary transition-colors text-white px-8 py-3 rounded-lg font-semibold hover:bg-gray-600 duration-200">
           {{ urlLabel }}
         </NuxtLink>
       </div>

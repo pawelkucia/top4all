@@ -13,8 +13,8 @@
 
       <h2 class="mt-6 text-2xl font-semibold">Key Elements of SEO</h2>
 
-      <h3>1. <strong>On-Page SEO</strong></h3>
-      <p>On-page SEO focuses on optimizing elements within a website to improve its ranking. This includes:</p>
+      <h3 class="text-xl font-semibold">1. On-Page SEO</h3>
+      <p class="mt-4">On-page SEO focuses on optimizing elements within a website to improve its ranking. This includes:</p>
       <ul class="list-disc list-inside space-y-2 my-4">
         <li><strong>Keyword Research & Optimization</strong> – Identifying and using relevant keywords strategically in
           content, headings, and metadata.</li>
@@ -27,8 +27,8 @@
           SEO value.</li>
       </ul>
 
-      <h3>2. <strong>Technical SEO</strong></h3>
-      <p>Technical SEO focuses on improving a website’s backend structure to enhance its visibility and performance,
+      <h3 class="text-xl font-semibold">2. Technical SEO</h3>
+      <p class="mt-4">Technical SEO focuses on improving a website’s backend structure to enhance its visibility and performance,
         including:</p>
       <ul class="list-disc list-inside space-y-2 my-4">
         <li><strong>Website Speed Optimization</strong> – Ensuring fast loading times for better user experience and SEO
@@ -40,8 +40,8 @@
           pages.</li>
       </ul>
 
-      <h3>3. <strong>Off-Page SEO</strong></h3>
-      <p>Off-page SEO involves external efforts to improve a website’s authority and ranking. This includes:</p>
+      <h3 class="text-xl font-semibold">3. Off-Page SEO</h3>
+      <p class="mt-4">Off-page SEO involves external efforts to improve a website’s authority and ranking. This includes:</p>
       <ul class="list-disc list-inside space-y-2 my-4">
         <li><strong>Backlink Building</strong> – Acquiring high-quality links from reputable websites.</li>
         <li><strong>Social Signals</strong> – Engaging on social media to drive traffic and credibility.</li>
@@ -49,8 +49,8 @@
         </li>
       </ul>
 
-      <h3>4. <strong>Local SEO</strong></h3>
-      <p>Local SEO helps businesses rank in location-based searches. Key aspects include:</p>
+      <h3 class="text-xl font-semibold">4. Local SEO</h3>
+      <p class="mt-4">Local SEO helps businesses rank in location-based searches. Key aspects include:</p>
       <ul class="list-disc list-inside space-y-2 my-4">
         <li><strong>Google My Business Optimization</strong> – Keeping business details accurate and up-to-date.</li>
         <li><strong>Local Citations & Listings</strong> – Getting listed on directories like Yelp and Bing Places.</li>
@@ -90,12 +90,10 @@
         online presence, attract more visitors, and achieve their digital marketing goals. Whether you’re a beginner or
         an experienced marketer, investing in SEO can yield long-term benefits for your website and brand.</p>
     </div>
-    <CallToActionSection
-      title="Need a SEO audit?"
-      description="Would you like us to take a look at your SEO strategy and provide recommendations for improvement?"
-      url="/contact" 
-      urlLabel="Yes, I need an audit"
-    />
+    
+    <CallToActionSection title="Ready to Improve Your SEO Performance?"
+      description="Contact us for a comprehensive SEO audit and actionable recommendations to boost your website's visibility."
+      url="/contact" urlLabel="Yes, I'm ready" />
   </TextPage>
 </template>
 

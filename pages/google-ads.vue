@@ -39,9 +39,8 @@
       </ul>
 
       <h2 class="mt-6 text-2xl font-semibold ">How to Get Started with Google Ads</h2>
-      <ol class="mt-2 list-decimal list-inside ">
-        <li><strong>Set Up a Google Ads Account</strong> – Visit <span
-            class="text-accent">ads.google.com
+      <ol class="list-decimal list-inside space-y-2 my-4">
+        <li><strong>Set Up a Google Ads Account</strong> – Visit <span class="text-accent">ads.google.com
           </span> and create an account.</li>
         <li><strong>Define Your Goals</strong> – Decide whether you want to drive website visits, generate leads, or
           increase sales.</li>
@@ -64,18 +63,16 @@
         <p class="mt-2 text-gray-800 dark:text-gray-300">Our agency provides professional support in Google Ads with
           many years of
           experience in the field. We specialize in creating and optimizing campaigns to help businesses achieve their
-          goals efficiently. <NuxtLink to="/contact" class="text-primary hover:underline">Contact us today</NuxtLink> to elevate
+          goals efficiently. <NuxtLink to="/contact" class="text-primary hover:underline">Contact us today</NuxtLink> to
+          elevate
           your
           advertising strategy!</p>
       </div>
     </div>
 
-    <CallToActionSection
-      title="Your Google Ads Success Starts Here!"
+    <CallToActionSection title="Your Google Ads Success Starts Here!"
       description="Ready to launch targeted advertising campaigns that drive results? Contact us for expert Google Ads management services."
-      url="/contact" 
-      urlLabel="Yes, I want to get started"
-    />
+      url="/contact" urlLabel="Yes, I want to get started" />
   </TextPage>
 </template>
 
