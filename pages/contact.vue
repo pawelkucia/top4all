@@ -31,20 +31,8 @@
 
 <script setup>
 const team = [
-  {
+{
     id: 1,
-    name: "Paweł Kucia",
-    position: "Software Engineer",
-    image: "/images/pawel-kucia.jpg",
-    social: [
-      { platform: "facebook", url: "https://www.facebook.com/pawelkucia.dev", icon: "fab fa-facebook" },
-      { platform: "twitter", url: "https://x.com/PawelKucia", icon: "fab fa-twitter" },
-      { platform: "instagram", url: "https://www.instagram.com/pawelkucia/", icon: "fab fa-instagram" },
-      { platform: "linkedin", url: "https://www.linkedin.com/in/pawelkucia/", icon: "fab fa-linkedin" }
-    ]
-  },
-  {
-    id: 2,
     name: "Radosław Mentel",
     position: "Certified SEO Specialist",
     image: "/images/radek-mentel.jpg",
@@ -54,7 +42,19 @@ const team = [
       { platform: "instagram", url: "https://www.instagram.com/radoslaw.mentel/", icon: "fab fa-instagram" },
       { platform: "linkedin", url: "https://www.linkedin.com/in/radoslawmentel/", icon: "fab fa-linkedin" }
     ]
-  }
+  },
+  {
+    id: 2,
+    name: "Paweł Kucia",
+    position: "Software Engineer",
+    image: "/images/pawel-kucia.jpg",
+    social: [
+      { platform: "facebook", url: "https://www.facebook.com/pawelkucia.dev", icon: "fab fa-facebook" },
+      { platform: "twitter", url: "https://x.com/PawelKucia", icon: "fab fa-twitter" },
+      { platform: "instagram", url: "https://www.instagram.com/pawelkucia/", icon: "fab fa-instagram" },
+      { platform: "linkedin", url: "https://www.linkedin.com/in/pawelkucia/", icon: "fab fa-linkedin" }
+    ]
+  },  
 ];
 
 useHead(useMetaTags({
