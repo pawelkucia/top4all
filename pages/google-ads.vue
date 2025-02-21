@@ -69,11 +69,10 @@
           advertising strategy!</p>
       </div>
     </div>
-
-    <CallToActionSection title="Your Google Ads Success Starts Here!"
-      description="Ready to launch targeted advertising campaigns that drive results? Contact us for expert Google Ads management services."
-      url="/contact" urlLabel="Yes, I want to get started" />
   </TextPage>
+  <CallToActionSection title="Your Google Ads Success Starts Here!"
+      description="Ready to launch targeted advertising campaigns that drive results? Contact us for expert Google Ads management services."
+      url="/contact" urlLabel="Yes, I want to get started" paddingTopNone/>
 </template>
 
 <script setup>

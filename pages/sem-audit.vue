@@ -96,11 +96,12 @@
       Need help with an SEM audit? Contact our experts today to optimize your campaigns and achieve higher ROI!
       </p>
     </div>
-    <CallToActionSection title="Ready to Optimize Your Paid Search Campaigns?"
-      description="Contact us for expert SEM audit services and actionable recommendations to improve your paid search performance."
-      url="/contact" 
-      urlLabel="Yes, I want to get started" />
   </TextPage>
+  <CallToActionSection title="Ready to Optimize Your Paid Search Campaigns?"
+    description="Contact us for expert SEM audit services and actionable recommendations to improve your paid search performance."
+    url="/contact" 
+    urlLabel="Yes, I want to get started" 
+    paddingTopNone />
 </template>
 
 <script setup>

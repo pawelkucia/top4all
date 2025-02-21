@@ -1,5 +1,5 @@
 <template>
-  <main>
+  <section>
     <div class="h-[400px] bg-cover bg-center" :style="{ backgroundImage: `url(${heroImage})` }">
       <div class="container h-full flex items-center">
         <h1 class="text-white">{{ title }}</h1>
@@ -11,7 +11,7 @@
         <slot></slot>
       </div>
     </div>
-  </main>
+  </section>
 </template>
 
 <script setup>

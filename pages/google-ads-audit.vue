@@ -2,7 +2,8 @@
   <TextPage title="Google Ads Audit" hero-image="/images/bg-header-2.jpg">
     <div class="prose lg:prose-xl">
       <h2 class="text-3xl font-bold">Why You Need a Google Ads Audit</h2>
-      <p class="mt-4">A Google Ads audit is essential to ensure your campaigns are optimized for performance and efficiency. Over
+      <p class="mt-4">A Google Ads audit is essential to ensure your campaigns are optimized for performance and
+        efficiency. Over
         time, ads may lose effectiveness due to competition, budget misallocation, or outdated targeting strategies. A
         thorough audit can help you identify areas of improvement, reduce wasted spend, and maximize your return on
         investment (ROI).</p>
@@ -70,9 +71,10 @@
           team of experts will analyze your account and provide actionable recommendations to boost your ROI.</p>
       </div>
     </div>
-    <CallToActionSection title="Ready to optimize your Google Ads?"
-      description="Contact us today for a free consultation!" url="/contact" urlLabel="Yes, I want to get started" />
   </TextPage>
+  <CallToActionSection title="Ready to optimize your Google Ads?"
+    description="Contact us today for a free consultation!" url="/contact" urlLabel="Yes, I want to get started"
+    paddingTopNone />
 </template>
 
 <script setup>

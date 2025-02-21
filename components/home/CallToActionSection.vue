@@ -1,5 +1,5 @@
 <template>
-  <section class="py-20">
+  <section :class="{ 'pt-20': !paddingTopNone }" class="pb-20">
       <div class="container text-center">
         <h2 class="mb-6">{{ title }}</h2>
         <p class="mb-8">{{ description }}</p>
@@ -29,6 +29,11 @@ defineProps({
     type: String,
     required: false,
     default: 'Get Started'
+  },
+  paddingTopNone: {
+    type: Boolean,
+    required: false,
+    default: false
   }
 });
 </script>

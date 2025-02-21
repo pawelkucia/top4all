@@ -70,14 +70,14 @@
         resolving issues, you can improve search rankings, enhance user experience, and drive more organic traffic.
         Start your SEO audit today and keep your website ahead of the competition!</p>
     </div>
-
-    <CallToActionSection
-      title="Need a SEO audit?"
-      description="Would you like us to take a look at your SEO strategy and provide recommendations for improvement?"
-      url="/contact" 
-      urlLabel="Yes, I need an audit"
-    />
   </TextPage>
+  <CallToActionSection
+    title="Need a SEO audit?"
+    description="Would you like us to take a look at your SEO strategy and provide recommendations for improvement?"
+    url="/contact" 
+    urlLabel="Yes, I need an audit"
+    paddingTopNone
+  />
 </template>
 
 <script setup>

@@ -89,12 +89,13 @@
         updates. By implementing effective SEO strategies, businesses and individuals can significantly enhance their
         online presence, attract more visitors, and achieve their digital marketing goals. Whether you’re a beginner or
         an experienced marketer, investing in SEO can yield long-term benefits for your website and brand.</p>
-    </div>
-    
-    <CallToActionSection title="Ready to Improve Your SEO Performance?"
-      description="Contact us for a comprehensive SEO audit and actionable recommendations to boost your website's visibility."
-      url="/contact" urlLabel="Yes, I'm ready" />
+    </div>        
   </TextPage>
+  <CallToActionSection title="Ready to Improve Your SEO Performance?"
+      description="Contact us for a comprehensive SEO audit and actionable recommendations to boost your website's visibility."
+      url="/contact" 
+      urlLabel="Yes, I'm ready" 
+      paddingTopNone />
 </template>
 
 <script setup>
