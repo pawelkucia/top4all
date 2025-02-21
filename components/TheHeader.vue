@@ -8,7 +8,7 @@
     <div class="container py-2">
       <nav class="flex items-center justify-between">
         <NuxtLink to="/" class="text-primary flex items-center">
-          <NuxtImg :src="logoSrc" alt="Top4All" class="h-[72px] transform origin-left" height="72" />
+          <NuxtImg :src="logoSrc" alt="Top4All" class="h-[72px] transform origin-left" height="72" width="193" />
         </NuxtLink>
 
         <!-- Desktop Navigation -->

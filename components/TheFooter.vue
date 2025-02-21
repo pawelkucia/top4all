@@ -46,14 +46,14 @@
       <div
         class="grid grid-cols-1 md:grid-cols-3 gap-8 items-center border-t border-solid border-white border-opacity-30 pt-8 md:pt-4">
         <div class="flex items-center justify-center md:justify-start gap-4">
-          <NuxtImg src="/images/logo-white-orange.png" alt="Top4All" class="h-12" height="48" />
+          <NuxtImg src="/images/logo-white-orange.png" alt="Top4All" class="h-12" height="48" width="128" />
         </div>
         <div class="text-center">
           <span>&copy; {{ year }} TOP4ALL. All rights reserved.</span>
         </div>
         <div class="flex items-center justify-center md:justify-end gap-4">
           <span>Design:</span>
-          <img src="/images/logo-frog.svg" alt="Frogriot" class="h-6">
+          <img src="/images/logo-frog.svg" height="24" width="143" alt="Frogriot" class="h-6">
         </div>
       </div>
     </div>
