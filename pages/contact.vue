@@ -12,7 +12,11 @@
       <h2 class="text-center mb-12">Our Team</h2>
       <div class="grid md:grid-cols-2 gap-8">
         <div v-for="member in team" :key="member.id" class="text-center">
-          <img :src="member.image" :alt="member.name" class="w-48 h-48 rounded-full mx-auto mb-4">
+          <NuxtImg :src="member.image" :alt="member.name" class="w-48 h-48 rounded-full mx-auto mb-4" 
+          width="192"
+          height="192"
+          placeholder
+          />
           <h3 class="text-xl font-semibold">{{ member.name }}</h3>
           <p class="text-gray-600 dark:text-gray-200 mb-4">{{ member.position }}</p>
           <div class="flex justify-center space-x-4">

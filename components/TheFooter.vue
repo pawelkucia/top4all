@@ -1,7 +1,9 @@
 <template>
   <footer class="relative text-white py-12">
     <div class="absolute inset-0">
-      <img src="/images/footer-bg.jpg" alt="" class="w-full h-full object-cover" aria-hidden="true">
+      <NuxtImg src="/images/footer-bg.jpg" alt="" class="w-full h-full object-cover"  aria-hidden="true" 
+        placeholder
+      />
       <div class="absolute inset-0 bg-black bg-opacity-10"></div>
     </div>
     <div class="container relative">

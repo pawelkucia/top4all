@@ -25,14 +25,15 @@
           <ThemeToggle />
           <button class="bhover:text-primary dark:hover:text-primary transition-colors duration-200" :class="[
             isScrolled || isMobileMenuOpen ? 'text-gray-700 dark:text-gray-300' : 'text-white'
-          ]" @click="toggleMobileMenu">
+          ]" @click="toggleMobileMenu"
+          title="Toggle Menu">
             <i class="fas fa-bars text-xl"></i>
           </button>
         </div>
       </nav>
 
       <!-- Mobile Menu -->
-      <div v-show="isMobileMenuOpen" class="md:hidden mt-4 pb-4 border-t border-gray-100 dark:border-dark-200">
+      <div v-show="isMobileMenuOpen" class="md:hidden mt-4 pb-4">
         <NavLink to="/seo" :is-mobile="true">SEO</NavLink>
         <NavLink to="/google-ads" :is-mobile="true">Google Ads</NavLink>
         <div class="py-2">
