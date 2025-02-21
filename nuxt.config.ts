@@ -8,7 +8,7 @@ export default defineNuxtConfig({
     'swiper/css',
     'swiper/css/pagination'
   ],
-  ssr: false,
+  ssr: true,
   app: {
     head: {
       title: 'TOP4ALL - Digital Marketing Agency',

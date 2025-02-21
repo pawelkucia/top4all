@@ -1,7 +1,7 @@
 <template>
   <main>
     <!-- Hero Image -->
-    <div class="h-[400px] bg-cover bg-center" style="background-image: url('/images/bg-header-4.jpg')">
+    <div class="h-[400px] bg-dark-100 bg-cover bg-center" style="background-image: url('/images/bg-header-4.jpg')">
       <div class="container h-full flex items-center">
         <h1 class="text-white">Contact Us</h1>
       </div>
