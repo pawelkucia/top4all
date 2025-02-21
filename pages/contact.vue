@@ -1,8 +1,11 @@
 <template>
   <!-- Hero Image -->
-  <div class="h-[400px] bg-dark-100 bg-cover bg-center" style="background-image: url('/images/bg-header-4.jpg')">
-    <div class="container h-full flex items-center">
-      <h1 class="text-white">Contact Us</h1>
+  <div class="relative h-[400px] bg-dark-100 bg-cover bg-center">
+    <div class="absolute inset-0">
+      <NuxtImg src="/images/bg-header-4.jpg" alt="" class="w-full h-full object-cover" aria-hidden="true" placeholder />
+    </div>
+    <div class="container relative h-full flex items-center justify-center">
+      <h1 class="text-white font-semibold">Contact Us</h1>
     </div>
   </div>
 
@@ -12,11 +15,8 @@
       <h2 class="text-center mb-12">Our Team</h2>
       <div class="grid md:grid-cols-2 gap-8">
         <div v-for="member in team" :key="member.id" class="text-center">
-          <NuxtImg :src="member.image" :alt="member.name" class="w-48 h-48 rounded-full mx-auto mb-4" 
-          width="192"
-          height="192"
-          placeholder
-          />
+          <NuxtImg :src="member.image" :alt="member.name" class="w-48 h-48 rounded-full mx-auto mb-4" width="192"
+            height="192" placeholder />
           <h3 class="text-xl font-semibold">{{ member.name }}</h3>
           <p class="text-gray-600 dark:text-gray-200 mb-4">{{ member.position }}</p>
           <div class="flex justify-center space-x-4">

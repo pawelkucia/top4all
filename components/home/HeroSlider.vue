@@ -1,27 +1,24 @@
 <template>
   <section class="relative h-[600px] bg-dark-100 dark:bg-dark-100">
-      <Swiper
-        :modules="[SwiperAutoplay, SwiperPagination]"
-        :slides-per-view="1"
-        :autoplay="{ delay: 5000 }"
-        :pagination="{ clickable: true }"
-        class="h-full"
-      >
-        <SwiperSlide v-for="slide in slides" :key="slide.id">
-          <div 
-            class="h-full bg-cover bg-center relative"
-            :style="{ backgroundImage: `url(${slide.image})` }"
-          >
-            <div class="absolute inset-0 bg-black bg-opacity-10"></div>
-            <div class="container relative h-full flex items-center" :class="{'justify-end': slide.right == true}">
-              <div class="max-w-2xl text-white">
-                <h2 class="text-5xl font-bold mb-4">{{ slide.title }}</h2>
-                <p class="text-xl">{{ slide.description }}</p>
-              </div>
+    <Swiper :modules="[SwiperAutoplay, SwiperPagination]" :slides-per-view="1" :autoplay="{ delay: 5000 }"
+      :pagination="{ clickable: true }" class="h-full">
+      <SwiperSlide v-for="slide in slides" :key="slide.id">
+        <div class="relative h-full bg-cover bg-center relative">
+          <div class="absolute inset-0">
+            <NuxtImg :src="slide.image" :alt="slide.title" class="w-full h-full object-cover" aria-hidden="true"
+              height="600" placeholder />
+          </div>
+
+          <div class="absolute inset-0 bg-black bg-opacity-10"></div>
+          <div class="container relative h-full flex items-center" :class="{ 'justify-end': slide.right == true }">
+            <div class="max-w-2xl text-white">
+              <h2 class="text-5xl font-semibold mb-4">{{ slide.title }}</h2>
+              <p class="text-xl">{{ slide.description }}</p>
             </div>
           </div>
-        </SwiperSlide>
-      </Swiper>    
+        </div>
+      </SwiperSlide>
+    </Swiper>
   </section>
 </template>
 

@@ -1,14 +1,14 @@
-<template>  
+<template>
   <header class="fixed top-0 left-0 right-0 z-50 transition-all duration-300" :class="[
     isScrolled || isMobileMenuOpen
       ? 'bg-white/95 backdrop-blur-sm dark:bg-dark-100/95 shadow-lg'
       : 'bg-transparent',
     isMobileMenuOpen ? 'bottom-0' : ''
   ]">
-    <div class="container py-4">
+    <div class="container py-2">
       <nav class="flex items-center justify-between">
         <NuxtLink to="/" class="text-primary flex items-center">
-          <img :src="logoSrc" alt="Top4All" class="h-12 transform scale-150 origin-left">
+          <NuxtImg :src="logoSrc" alt="Top4All" class="h-[72px] transform origin-left" height="72" />
         </NuxtLink>
 
         <!-- Desktop Navigation -->
@@ -25,8 +25,7 @@
           <ThemeToggle />
           <button class="bhover:text-primary dark:hover:text-primary transition-colors duration-200" :class="[
             isScrolled || isMobileMenuOpen ? 'text-gray-700 dark:text-gray-300' : 'text-white'
-          ]" @click="toggleMobileMenu"
-          title="Toggle Menu">
+          ]" @click="toggleMobileMenu" title="Toggle Menu">
             <i class="fas fa-bars text-xl"></i>
           </button>
         </div>
@@ -42,7 +41,7 @@
         <NavLink to="/contact" :is-mobile="true">Contact</NavLink>
       </div>
     </div>
-  </header>  
+  </header>
 </template>
 
 <script setup lang="ts">
@@ -76,12 +75,12 @@ const toggleServices = () => {
 
 onMounted(() => {
   const handleScroll = () => {
-    isScrolled.value = window && window.scrollY > 0;    
+    isScrolled.value = window && window.scrollY > 0;
   };
 
   window.addEventListener('scroll', handleScroll);
   handleScroll();
-  
+
   onUnmounted(() => {
     window.removeEventListener('scroll', handleScroll);
   });

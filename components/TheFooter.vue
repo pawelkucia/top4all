@@ -1,9 +1,7 @@
 <template>
   <footer class="relative text-white py-12">
     <div class="absolute inset-0">
-      <NuxtImg src="/images/footer-bg.jpg" alt="" class="w-full h-full object-cover"  aria-hidden="true" 
-        placeholder
-      />
+      <NuxtImg src="/images/footer-bg.jpg" alt="" class="w-full h-full object-cover" aria-hidden="true" placeholder />
       <div class="absolute inset-0 bg-black bg-opacity-10"></div>
     </div>
     <div class="container relative">
@@ -45,9 +43,10 @@
       </div>
     </div>
     <div class="container relative">
-      <div class="grid grid-cols-1 md:grid-cols-3 gap-8 items-center border-t border-solid border-white border-opacity-30 pt-8 md:pt-4">
+      <div
+        class="grid grid-cols-1 md:grid-cols-3 gap-8 items-center border-t border-solid border-white border-opacity-30 pt-8 md:pt-4">
         <div class="flex items-center justify-center md:justify-start gap-4">
-          <img src="/images/logo-white-orange.png" alt="Top4All" class="h-12">
+          <NuxtImg src="/images/logo-white-orange.png" alt="Top4All" class="h-12" height="48" />
         </div>
         <div class="text-center">
           <span>&copy; {{ year }} TOP4ALL. All rights reserved.</span>
