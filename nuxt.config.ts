@@ -3,12 +3,15 @@ export default defineNuxtConfig({
     '@nuxtjs/tailwindcss',
     '@pinia/nuxt'
   ],
+
   css: [
     '~/assets/css/main.css',
     'swiper/css',
     'swiper/css/pagination'
   ],
+
   ssr: true,
+
   app: {
     head: {
       title: 'TOP4ALL - Digital Marketing Agency',
@@ -28,5 +31,7 @@ export default defineNuxtConfig({
         }
       ]
     }
-  }
+  },
+
+  compatibilityDate: '2025-02-21'
 })

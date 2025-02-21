@@ -1,5 +1,5 @@
 export default defineEventHandler(async (event) => {
-  const baseUrl = 'https://top4all.pl'
+  const baseUrl = 'https://www.top4all.pl'
   
   // Define your routes
   const routes = [

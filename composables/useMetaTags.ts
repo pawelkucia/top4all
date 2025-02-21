@@ -7,7 +7,7 @@ export function useMetaTags(config: {
   image: string
 }) {
   const route = useRoute()
-  const baseUrl = 'https://top4all.pl' // Replace with your actual domain
+  const baseUrl = 'https://www.top4all.pl' // Replace with your actual domain
 
   const meta: MetaObject = {
     title: `${config.title} | TOP4ALL`,
@@ -27,7 +27,17 @@ export function useMetaTags(config: {
       { name: 'twitter:title', content: config.title },
       { name: 'twitter:description', content: config.description },
       { name: 'twitter:image', content: `${baseUrl}${config.image}` }
-    ]
+    ],    
+    htmlAttrs: {
+      lang: 'en'
+    },
+    link: [
+      {
+        rel: 'icon',
+        type: 'image/png',
+        href: `${baseUrl}/favicon.png`
+      }
+    ],    
   }
 
   return meta

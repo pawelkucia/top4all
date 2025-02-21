@@ -1,5 +1,5 @@
 <template>
-  <main>
+  
     <HeroSlider />
 
     <!-- About Section -->
@@ -44,7 +44,7 @@
       url="/contact" 
       urlLabel="Get Started"
     />
-  </main>
+  
 </template>
 
 <script setup>

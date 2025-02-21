@@ -1,11 +1,10 @@
 <template>
-  <section>
+  <section>    
     <div class="h-[400px] bg-dark-100 bg-cover bg-center" :style="{ backgroundImage: `url(${heroImage})` }">
       <div class="container h-full flex items-center">
         <h1 class="text-white">{{ title }}</h1>
       </div>
-    </div>
-    
+    </div>    
     <div class="container py-20">
       <div class="max-w-3xl mx-auto">
         <slot></slot>

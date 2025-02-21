@@ -1,6 +1,5 @@
 <template>
   <section class="relative h-[600px] bg-dark-100 dark:bg-dark-100">
-    <ClientOnly>
       <Swiper
         :modules="[SwiperAutoplay, SwiperPagination]"
         :slides-per-view="1"
@@ -22,8 +21,7 @@
             </div>
           </div>
         </SwiperSlide>
-      </Swiper>
-    </ClientOnly>
+      </Swiper>    
   </section>
 </template>
 

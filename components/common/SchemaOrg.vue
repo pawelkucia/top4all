@@ -4,8 +4,8 @@
       "@context": "https://schema.org",
       "@type": "Organization",
       "name": "TOP4ALL",
-      "url": "https://top4all.pl",
-      "logo": "https://top4all.pl/images/logo.png",
+      "url": "https://www.top4all.pl",
+      "logo": "https://www.top4all.pl/images/logo.png",
       "contactPoint": {
         "@type": "ContactPoint",
         "telephone": "+48 693 430 284",

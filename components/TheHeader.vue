@@ -1,4 +1,4 @@
-<template>
+<template>  
   <header class="fixed top-0 left-0 right-0 z-50 transition-all duration-300" :class="[
     isScrolled || isMobileMenuOpen
       ? 'bg-white/95 backdrop-blur-sm dark:bg-dark-100/95 shadow-lg'
@@ -41,7 +41,7 @@
         <NavLink to="/contact" :is-mobile="true">Contact</NavLink>
       </div>
     </div>
-  </header>
+  </header>  
 </template>
 
 <script setup lang="ts">
@@ -75,12 +75,12 @@ const toggleServices = () => {
 
 onMounted(() => {
   const handleScroll = () => {
-    isScrolled.value = window.scrollY > 0;
+    isScrolled.value = window && window.scrollY > 0;    
   };
 
   window.addEventListener('scroll', handleScroll);
-  handleScroll(); // Initial check
-
+  handleScroll();
+  
   onUnmounted(() => {
     window.removeEventListener('scroll', handleScroll);
   });
