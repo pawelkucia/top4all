@@ -4,6 +4,7 @@ export default defineNuxtConfig({
     '@pinia/nuxt',
     '@nuxt/image'
   ],
+  image: { dir: 'public' },
 
   css: [
     '~/assets/css/main.css',
