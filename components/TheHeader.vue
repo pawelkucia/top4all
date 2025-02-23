@@ -1,11 +1,11 @@
 <template>
-  <header class="fixed top-0 left-0 right-0 z-50 transition-all duration-300" :class="[
+  <header class="fixed top-[5px] left-[5px] right-[5px] z-50 " >
+    <div class="container py-2 transition-colors duration-300" :class="[
     isScrolled || isMobileMenuOpen
-      ? 'bg-white/95 backdrop-blur-sm dark:bg-dark-100/95 shadow-lg'
+      ? 'bg-white/50 backdrop-blur-md dark:bg-dark-100/40 shadow-lg'
       : 'bg-transparent',
-    isMobileMenuOpen ? 'bottom-0' : ''
-  ]">
-    <div class="container py-2">
+    isMobileMenuOpen ? 'rounded-2xl' : 'rounded-full'
+    ]">
       <nav class="flex items-center justify-between">
         <NuxtLink to="/" class="text-primary flex items-center">
           <img :src="logoSrc" alt="Top4All" class="h-[72px] transform origin-left" height="72" width="193">
